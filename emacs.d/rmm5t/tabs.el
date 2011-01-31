@@ -30,7 +30,7 @@
 ;; http://www.emacswiki.org/emacs/TabCompletion
 ;; TODO: Take a look at https://github.com/genehack/smart-tab
 
-(defvar smart-tab-using-hippie-expand t
+(defvar smart-tab-using-hippie-expand nil
   "turn this on if you want to use hippie-expand completion.")
 
 (defun smart-tab (prefix)

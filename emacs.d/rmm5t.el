@@ -23,8 +23,10 @@
 (load "rmm5t/flymake")
 (load "rmm5t/javascript")
 (load "rmm5t/ri-emacs")
+(load "rmm5t/dean")
 (load "rmm5t/mac")
 (load "rmm5t/private" 'noerror)
+(load "rmm5t/rails")
 
 ;; (load "rmm5t/hl-line")
 ;; (load "rmm5t/iswitchb")
@@ -46,6 +48,7 @@
 (vendor 'markdown-mode 'markdown-mode)
 (vendor 'textile-mode  'textile-mode)
 (vendor 'csv-mode      'csv-mode)
+(vendor 'espresso      'espresso)
 (vendor 'yaml-mode     'yaml-mode)
 (vendor 'inf-ruby      'inf-ruby)
 (vendor 'rcodetools    'xmp)
